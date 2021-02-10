@@ -7,11 +7,6 @@ from pdf2image import convert_from_path
 
 
 def ocr(filepath):
-    #pytesseract.pytesseract.tesseract_cmd = (
-    #    r'/usr/bin/tesseract'
-        # r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-    #)
-
     images = convert_from_path(filepath, dpi=200)
 
     for image in images:
