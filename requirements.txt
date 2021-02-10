@@ -4,6 +4,7 @@ requests
 uvicorn
 
 beautifulsoup4
+lxml
 pytesseract
 Pillow
 pdf2image
